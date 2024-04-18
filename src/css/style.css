@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--Violet) url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 45px 50px;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+main .container {
+    padding-top: 50px;
+    display: flex;
+    gap: 50px;
+    color: #fff;
+}
+
+
+main .container .image-ilustration {
+    width: 50%;
+    height: 50%;
+}
+
+main .container .description {
+    max-width: 400px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .container .description h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+main .container .description p {
+    font-size: 1.4rem;
+    line-height: 25px;
+}
+
+main .container .description a .btn-registrer {
+    align-self: flex-start;
+    padding: 12px 50px;
+    border-radius: 20px;
+    border: none;
+    color: var(--Violet);
+    box-shadow: 3px 3px 15px #392370;
+    transition: 0.5s ease-in-out;
+}
+
+main .container .description a .btn-registrer:hover {
+    background-color: var(--Soft-Magenta);
+    color: #fff;
+    cursor: pointer;
+}
+footer .social-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+footer .social-links a {
+    display: flex;
+    align-items: center;
+    padding: 8px 9px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+footer .social-links a:first-child {
+    padding: 5px 12px;
+} 
+
+footer .social-links a:hover {
+    color: var(--Soft-Magenta);
+    border-color: var(--Soft-Magenta);
+}
