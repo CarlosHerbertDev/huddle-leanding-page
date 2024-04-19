@@ -11,6 +11,7 @@
     main .container .description p {
         font-size: 1.4rem;
     }
+
 }
 
 @media(max-width: 998px) {
@@ -49,7 +50,6 @@
     
     main .container .description {
         padding-top: 20px;
-        max-width: 200px;
     }
     main .container .description h1 {
         font-size: 1.8rem;

@@ -29,7 +29,7 @@ main .container .image-ilustration {
 }
 
 main .container .description {
-    max-width: 400px;
+    /* max-width: 400px; */
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,7 @@ main .container .description {
 }
 
 main .container .description h1 {
+    max-width: 400px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 3.5rem;
