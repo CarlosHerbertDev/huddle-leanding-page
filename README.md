@@ -18,6 +18,7 @@ Projeto Huddle Leanding Page com Flex<br/>
   <p align= 'center'>
   <img alt="blog preview card main" src="./design/huddle_mobile.gif">
   </p>
+  
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
