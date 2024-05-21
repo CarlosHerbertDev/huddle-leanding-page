@@ -10,13 +10,16 @@ body {
     background: var(--Violet) url(../images/bg-desktop.svg) center center no-repeat;
     background-size: cover;
     max-width: 1440px;
-    margin: 45px 50px;
+    margin: 0 auto;
     font-family:"Open Sans", sans-serif;
     font-weight: 400;
 }
 
+header .image-logo, main .container, footer .social-links {
+    margin: 35px 80px;
+}
+
 main .container {
-    padding-top: 50px;
     display: flex;
     gap: 50px;
     color: #fff;
@@ -29,7 +32,6 @@ main .container .image-ilustration {
 }
 
 main .container .description {
-    /* max-width: 400px; */
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -63,6 +65,7 @@ main .container .description a .btn-registrer:hover {
     color: #fff;
     cursor: pointer;
 }
+
 footer .social-links {
     margin-top: 40px;
     display: flex;

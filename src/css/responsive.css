@@ -15,8 +15,9 @@
 }
 
 @media(max-width: 998px) {
-    body {
-        margin-inline: 40px
+
+    header .image-logo, main .container, footer .social-links {
+        margin-inline: 35px;
     }
 
     main .container .description {
@@ -79,11 +80,16 @@
     } 
 }
 
-@media(max-width: 461px) {
+@media(max-width: 534px) {
     body {
         background: var(--Violet) url(../images/bg-mobile.svg) center center no-repeat;
         margin: 20px 40px;
     }
+
+    header .image-logo, main .container, footer .social-links {
+        margin: 30px 0px;
+    }
+
     main .container {
         flex-direction: column;
         text-align: center;
@@ -94,18 +100,25 @@
         margin: 0 auto;
     } 
 
+    main .container .description h1, main .container .description p, main .container .description a {
+        margin-top: 20px;
+    }
+
     main .container .description {
+        margin: 0 auto;
         max-width: 400px;
     }
     main .container .description a .btn-registrer {
         padding: 12px 80px;
+        font-size: 1.8rem;
     }
     main .container .description h1 {
         max-width: 400px;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     } 
     main .container .description p {
-        font-size: 1.6rem;
+        font-size: 2rem;
+        font-weight: 300;
         line-height: 25px;
     }
     footer .social-links {
@@ -114,12 +127,26 @@
     footer .social-links {
         margin-top: 70px;
     }
+    footer .social-links a {
+        padding: 10px 11px;
+        font-size: 18px;
+    }
+    
+    footer .social-links a:first-child {
+        padding: 6px 13px;
+    } 
 }
 
-@media(max-width: 375px) {
-    header .image-logo {
-        margin-top: 10px;
+@media(max-width: 400px) {
+
+    header .image-logo, main .container, footer .social-links {
+        margin: 0;
     }
+
+    main .container .description h1, main .container .description p, main .container .description a {
+        margin-top: 0px;
+    }
+
     main .container  {
         padding-top: 50px;
         gap: 50px;
@@ -128,6 +155,13 @@
         font-size: 2.3rem;
     } 
     main .container .description p {
+        font-size: 1.4rem;
+    }
+    main .container .description a .btn-registrer {
+        padding: 10px 70px;
         font-size: 1.6rem;
+    }
+    footer .social-links {
+        margin-top: 70px;
     }
 }
